@@ -19,4 +19,13 @@ class LengthOfLongestSubstringTest {
         assertEquals(test.lengthOfLongestSubstring("bbbbb"), 1);
         assertEquals(test.lengthOfLongestSubstring("pwwkew"), 3);
     }
+
+    @Test
+    void lengthOfLongestSubstring2() {
+        LengthOfLongestSubstring test = new LengthOfLongestSubstring();
+//        assertEquals(test.lengthOfLongestSubstring2("abcabcbb"), 3);
+//        assertEquals(test.lengthOfLongestSubstring2("bbbbb"), 1);
+//        assertEquals(test.lengthOfLongestSubstring2("pwwkew"), 3);
+        assertEquals(test.lengthOfLongestSubstring2("vqblqcb"), 4);
+    }
 }
